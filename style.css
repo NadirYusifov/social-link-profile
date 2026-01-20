@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -18,6 +20,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Inter", sans-serif;
     background-color: var(--body-background);
 }
 
@@ -67,6 +70,7 @@ body {
             display: flex;
             cursor: pointer;
             font-weight: 700;
+            font-size: 1rem;
             text-align: center;
             align-items: center;
             justify-content: center;
@@ -74,13 +78,14 @@ body {
             flex-direction: column;
             background-color: var(--button-background);
             transition: all 0.3s ease-in-out;
+            font-family: "Inter", sans-serif;
         }
-
+        
         button:hover {
             color: var(--button-background);
             background-color: var(--green);
         }
-
+        
         a {
             text-decoration: none;
         }
