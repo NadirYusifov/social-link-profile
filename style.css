@@ -25,14 +25,14 @@ body {
 }
 
 .section-card {
-    width: 300px;
+    width: 22em;
 
     .card {
         max-width: 100%;
         border-radius: 10px;
         text-align: center;
         background-color: var(--card-background);
-        padding: 30px;
+        padding: clamp(1.25rem, 8vw, 1.875rem);
 
         img {
             max-width: 100%;
@@ -40,19 +40,19 @@ body {
             aspect-ratio: 1/1;
             object-fit: cover;
             border-radius: 9999px;
-            margin-bottom: 20px;
+            inset-inline-start: 20px;
         }
 
-        h2,
+        h1,
         p {
             color: white;
         }
 
-        h2 {
+        h1 {
             font-weight: 700;
         }
 
-        h4 {
+        h3 {
             color: var(--green);
             font-weight: 700;
         }
@@ -79,7 +79,7 @@ body {
             margin: 10px 0 10px 0;
             flex-direction: column;
             background-color: var(--button-background);
-            transition: all 0.3s ease-in-out;
+            /*transition: all 0.3s ease-in-out;*/
             font-family: "Inter", sans-serif;
         }
 
